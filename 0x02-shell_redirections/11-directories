@@ -1,2 +1,2 @@
 #!/bin/bash
-finf . -type d -not -name '.' -print | wc -al
+find . -type d -not -name '.' -print | wc -al
